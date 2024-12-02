@@ -10,6 +10,7 @@ class Talker(Node):
         self.create_timer(0.5, self.cb)
         self.n = 0
 
+
     def cb(self):
         msg = Int16()
         msg.data = self.n
